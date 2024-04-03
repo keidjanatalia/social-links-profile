@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/static/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body .card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px 40px 25px 40px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+}
+
+body .card .imagem {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+body .card .imagem img {
+    width: 100%;
+    display: block;
+}
+
+body .card h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+body .card h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+body .card p {
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+
+body .card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+body .card ul li {
+    margin-bottom: 15px;
+}
+
+body .card ul li a{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+body .card ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .attribution a {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    text-decoration: none;
+  }
